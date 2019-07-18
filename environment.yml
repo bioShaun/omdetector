@@ -1,0 +1,12 @@
+name: nf
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastp=0.19.5
+  - hisat2=2.1.0
+  - fire
+  - pybigwig=0.3.16
+  - r-devtools=2.0.2
+  - samtools=1.9
