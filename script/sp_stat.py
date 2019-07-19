@@ -16,8 +16,8 @@ BLAST_HEADER = [
     'stitle',
 ]
 
-SWISS_PATTERN = re.compile("OS=(.*?) \w+=")
-UNIREF_PATTERN = re.compile("Tax=(.*?) \w+=")
+SWISS_PATTERN = re.compile(r"OS=(.*?) \w+=")
+UNIREF_PATTERN = re.compile(r"Tax=(.*?) \w+=")
 
 
 def sp_name(stitle):
